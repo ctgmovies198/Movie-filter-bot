@@ -13,14 +13,14 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '29904834'))
-API_HASH = environ.get('API_HASH', '8b4fd9ef578af114502feeafa2d31938')
+API_ID = int(environ.get('API_ID', '22289104'))
+API_HASH = environ.get('API_HASH', 'aaf65adaaf2280501e1f88239b481df5')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7120801813').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/ya_movies") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002240638120'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7120801813 7969641815 5605274356').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Doctor_brown_12") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002354122061'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/yamovieflix198')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002408526695').split()]
 #---------------------------------------------------------------
